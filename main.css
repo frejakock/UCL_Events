@@ -1,3 +1,17 @@
+
+html {
+  font-family: sans-serif;
+  color: #00454E
+
 body {
-  background-color: #CAE4E3; 
+  background-color: #cae4e3
+  position: relative;
+}
+
+h1 {
+font-size: 20px
+}
+
+a {
+  cursor: pointer;
 }
