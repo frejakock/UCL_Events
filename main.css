@@ -2,6 +2,7 @@
 html {
   font-family: sans-serif;
   color: #00454E
+}
 
 body {
   background-color: #cae4e3
@@ -14,4 +15,41 @@ font-size: 20px
 
 a {
   cursor: pointer;
+}
+
+
+
+.item1 { grid-area: menu; }
+.item2 { grid-area: boks; }
+.item3 { grid-area: kategori1; }
+.item4 { grid-area: kategori2; }
+.item5 { grid-area: kategori3; }
+.item6 { grid-area: text; }
+.item7 { grid-area: begivenhed1; }
+.item8 { grid-area: begivenhed2; }
+.item9 { grid-area: begivenhed3; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'menu menu menu menu menu menu'
+  'boks boks boks boks boks boks'
+  'boks boks boks boks boks boks'
+  'boks boks boks boks boks boks'
+  'boks boks boks boks boks boks'
+  'kategori1 kategori1 kategori2 kategori2 kategori3 kategori3'
+  'text text text text text text'
+  'begivenhed1 begivenhed1 begivenhed1 begivenhed1 begivenhed1 begivenhed1'
+  'begivenhed2 begivenhed2 begivenhed2 begivenhed2 begivenhed2 begivenhed2'
+  'begivenhed3 begivenhed3 begivenhed3 begivenhed3 begivenhed3 begivenhed3';
+  gap: 10px;
+  background-color: #CAE4E3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
