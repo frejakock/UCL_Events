@@ -1,5 +1,5 @@
 // menubar//
-var countries = ["campusfest","fredagsbar","brætspilscafé"];
+var events = ["campusfest","fredagsbar","brætspilscafé","skønlitteraternes bogklub","ARAM turnering"];
 
 
 function autocomplete(inp, arr) {
@@ -99,7 +99,7 @@ function autocomplete(inp, arr) {
   });
   }
 
-  autocomplete(document.getElementById("myInput"), countries);
+  autocomplete(document.getElementById("eventsInput"), events);
   //menubar//
 
   // slideshow//
