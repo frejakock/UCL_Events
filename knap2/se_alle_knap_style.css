@@ -1,0 +1,13 @@
+.button5 {
+  border: none;
+  border-radius: 8px;
+  color: #00454E;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #FAE76A;
+  max-width: 80px;
+  height: 40px;
+}
