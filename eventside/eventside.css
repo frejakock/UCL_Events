@@ -1,0 +1,104 @@
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+body {
+background-color: #CAE4E3;
+}
+
+h1,h2,h3,h4, {
+  color: #00454E;
+}
+
+p {
+  color: #E4F1F1;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: medium;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+.start-tekst h2 {
+  margin-top: -8px;
+}
+
+.start-tekst h3{
+  margin-top: -13px;
+}
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  color: #E4F1F1;
+  background-color: #00454E;
+  padding: 9px 40px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-deltag{
+  border: none;
+  border-radius: 8px;
+  color: #E4F1F1;
+  background-color: #00454E;
+  padding: 9px 40px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-del{
+  border: none;
+  border-radius: 8px;
+  color: #E4F1F1;
+  background-color: #00454E;
+  padding: 6px 9px;
+  padding-bottom: 9px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.flex-deltagere{
+  flex-direction: row;
+  padding-top: 4px;
+}
+
+.lokation {
+ display: flex;
+ justify-content: left;
+}
+
+.lokation-ikon{
+  height: 20px;
+  width: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 5px;
+}
+
+.info-boks {
+  background-color: #00454E;
+  border: none;
+  border-radius: 8px;
+  color: #E4F1F1;
+  padding: 6px;
+}
+
+.mybtn {
+  background-color: #F2CAC1;
+  color: #00454E;
+  border: none;
+  border-radius: 8px;
+  padding: 6px;
+}
