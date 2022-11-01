@@ -123,3 +123,20 @@ function autocomplete(inp, arr) {
     setTimeout(showSlides, 2000); // Change image every 2 seconds
   }
   // slideshow//
+
+// eventside //
+  function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Læs mere";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Læs mindre";
+      moreText.style.display = "inline";
+    }
+  }
