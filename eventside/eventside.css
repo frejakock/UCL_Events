@@ -1,20 +1,15 @@
-* { box-sizing: border-box; }
-html {
-  font-family: sans-serif;
+.responsive {
+  width: 100%;
+  height: auto;
 }
 
 body {
-  background-color: #CAE4E3;
-  color: #00454E;
-  position: relative;
-  margin: 0px
+background-color: #CAE4E3;
+font-family: sans-serif;
+color: #00454E;
 }
 
 /* menubar */
-
-.text {
-  margin: 15px;
-}
 
 a {
     text-decoration: none;
@@ -60,9 +55,6 @@ nav {
     display: flex;
     justify-content: space-between;
 
-}.responsive {
-  width: 100%;
-  height: auto;
 }
 
 /* Search bar */
@@ -118,7 +110,6 @@ nav {
 p {
   color: #E4F1F1;
   font-size: 16px;
-  margin: 10px;
 }
 
 h1 {

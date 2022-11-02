@@ -179,6 +179,59 @@ nav {
   color: #00454E;
 }
 
+.lille-fredagsbar {
+  width: 360px;
+  height: 88px;
+  margin: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  background-color: #00454E;
+  color: white;
+  border-radius: 8px;
+  position: relative;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.fredagsbar-lille-img {
+  width: 120px;
+  height: 88px;
+  padding: 0px;
+  margin: 0px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.content-lille-fredagsbar {
+  box-sizing: content-box;
+  margin-top: -38px;
+
+}
+
+.h2 {
+  font-size: 12px;
+  padding-left: 130px;
+  margin-top: -75px;
+}
+
+.p3 {
+  font-size: 16px;
+  padding: 0px;
+  margin: 0px;
+  margin-top: -6px;
+  bottom: 15px;
+  left: 10px;
+  padding-left: 130px;
+}
+
+.p4 {
+  padding: 0px;
+  margin: 0px;
+  margin-top: -20px;
+  font-size: 12px;
+  left: 25px;
+  padding-left: 130px;
+}
+
 .lille-bogklub {
   width: 360px;
   height: 88px;
@@ -214,59 +267,6 @@ nav {
     position: absolute;
     top: 10px;
     right: 10px;
-}
-
-.h2 {
-  font-size: 12px;
-  padding-left: 130px;
-  margin-top: -75px;
-}
-
-.p3 {
-  font-size: 16px;
-  padding: 0px;
-  margin: 0px;
-  margin-top: -6px;
-  bottom: 15px;
-  left: 10px;
-  padding-left: 130px;
-}
-
-.p4 {
-  padding: 0px;
-  margin: 0px;
-  margin-top: -20px;
-  font-size: 12px;
-  left: 25px;
-  padding-left: 130px;
-}
-
-.lille-fredagsbar {
-  width: 360px;
-  height: 88px;
-  margin: 20px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  background-color: #00454E;
-  color: white;
-  border-radius: 8px;
-  position: relative;
-  padding-right: 10px;
-  box-sizing: border-box;
-}
-
-.fredagsbar-lille-img {
-  width: 120px;
-  height: 88px;
-  padding: 0px;
-  margin: 0px;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
-}
-
-.content-lille-fredagsbar {
-  box-sizing: content-box;
-  margin-top: -38px;
-
 }
 
 .h2 {
