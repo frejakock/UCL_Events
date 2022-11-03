@@ -16,12 +16,31 @@ p {
   padding-left: 13px;
 }
 
+.event-titel {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
 h1 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 500;
+  font-style: normal;
     font-size: 16px;
     padding-left: 13px;
   }
 
+h2 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
 .h2 {
+  font-family: proxima-nova, sans-serif;
+font-weight: 500;
+font-style: normal;
+color: #E4F1F1;
     font-size: 12px;
     padding-left: 130px;
     margin-top: -75px;
@@ -31,12 +50,23 @@ h3 {
   font-size: 20px;
   font-weight: italic;
 }
+
+h4 {
+  font-family: proxima-nova, sans-serif;
+font-weight: 700;
+font-style: italic;
+}
   
 .p3 {
+  font-family: proxima-nova, sans-serif;
+font-weight: 700;
+font-style: italic;
+color: #E4F1F1;
+
     font-size: 16px;
     padding: 0px;
     margin: 0px;
-    margin-top: -6px;
+    margin-top: -8px;
     bottom: 15px;
     left: 10px;
     padding-left: 130px;
@@ -44,6 +74,11 @@ h3 {
   
   
 .p4 {
+  font-family: proxima-nova, sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #E4F1F1;
+opacity: 80%;
     padding: 0px;
     margin: 0px;
     margin-top: -20px;
@@ -59,6 +94,10 @@ h3 {
 
 
   .adr {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    opacity: 80%;
         padding: 0px;
         margin: 0px;
         margin-top: -20px;
@@ -152,6 +191,9 @@ h3 {
       input {
         border: 1px solid transparent;
         background-color: #f1f1f1;
+        font-family: proxima-nova, sans-serif;
+font-weight: 300;
+font-style: normal;
         padding: 10px;
         font-size: 16px;
       }
@@ -219,8 +261,6 @@ img {vertical-align: middle;} */
 {@media only screen and (max-width: 300px)}
 
 
-/* KAN KORTES NED */
-
 
 .kategorier-forside {
   margin-left: 20px;
@@ -231,6 +271,9 @@ img {vertical-align: middle;} */
 } 
 
 .button {
+  font-family: proxima-nova, sans-serif;
+font-weight: 600;
+font-style: italic;
   border: none;
   border-radius: 8px;
   color: #E4F1F1;
@@ -283,16 +326,17 @@ img {vertical-align: middle;} */
 
 /* se mere knap */
 .button5 {
+  font-family: proxima-nova, sans-serif;
+font-weight: 600;
+font-style: italic;
+line-height: 10px;
   border: none;
   border-radius: 8px;
   margin-left: 308px;
   margin-top: -10px;
-  padding-right: 8px;
-  padding-left: 8px;
   color: #00454E;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 18px;
   cursor: pointer;
   background-color: #FAE76A;
@@ -360,6 +404,9 @@ img {vertical-align: middle;} */
   }
 
   .btn {
+    font-family: proxima-nova, sans-serif;
+font-weight: 700;
+font-style: italic;
     border: none;
     border-radius: 8px;
     color: #00454E;
@@ -435,6 +482,9 @@ img {vertical-align: middle;} */
 }
 
 .btn-deltagere {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: italic;
   border: none;
   border-radius: 8px;
   color: #E4F1F1;
@@ -451,6 +501,9 @@ img {vertical-align: middle;} */
   }
 
 .btn-deltag{
+  font-family: proxima-nova, sans-serif;
+font-weight: 700;
+font-style: italic;
   border: none;
   border-radius: 8px;
   color: #E4F1F1;
@@ -474,7 +527,7 @@ img {vertical-align: middle;} */
   border-radius: 8px;
   color: #E4F1F1;
   background-color: #00454E;
-  padding: 6px 9px;
+  padding: 11px 9px;
   padding-bottom: 9px;
   font-size: 16px;
   cursor: pointer;
@@ -512,14 +565,27 @@ img {vertical-align: middle;} */
   border-radius: 8px;
   color: #E4F1F1;
   padding: 6px;
-  margin: 14px;
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 .info-tekst {
+  font-family: proxima-nova, sans-serif;
+font-weight: 700;
+font-style: italic;
   margin-left: 14px;
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-top: 0px;
+
 }
 
 .info {
+  font-family: proxima-nova, sans-serif;
+font-weight: 500;
+font-style: normal;
   color: #E4F1F1;
   font-size: 16px;
   margin: 7px;
@@ -527,10 +593,16 @@ img {vertical-align: middle;} */
 }
 
 .mybtn {
+  font-family: proxima-nova, sans-serif;
+font-weight: 700;
+font-style: italic;
+font-size: 16px;
   background-color: #F2CAC1;
   color: #00454E;
   border: none;
   border-radius: 8px;
-  padding: 6px;
+  padding: 4px 10px;
   margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
