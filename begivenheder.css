@@ -127,12 +127,6 @@ nav {
     border-top-right-radius: 8px;
   }
 
-  .content-box2 {
-    box-sizing: content-box;
-    margin-top: -38px;
-
-  }
-
   .fredagsbar {
     width: 360px;
     height: 270px;
@@ -174,12 +168,6 @@ nav {
     margin: 0px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-  }
-
-  .content-box {
-    box-sizing: content-box;
-    margin-top: 2px;
-
   }
 
   .hjerte {
@@ -239,12 +227,6 @@ nav {
     margin: 0px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-  }
-
-  .content-box3 {
-    box-sizing: content-box;
-    margin-top: -38px;
-
   }
 
   .h1 {
@@ -326,12 +308,6 @@ nav {
     border-top-right-radius: 8px;
   }
 
-  .content-box4 {
-    box-sizing: content-box;
-    margin-top: -38px;
-
-  }
-
   .hjerte {
     object-fit: contain;
     height: 23px;
@@ -394,12 +370,6 @@ nav {
     margin: 0px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-  }
-
-  .content-box4 {
-    box-sizing: content-box;
-    margin-top: -38px;
-
   }
 
   .hjerte {
