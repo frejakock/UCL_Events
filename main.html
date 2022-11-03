@@ -3,13 +3,11 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="main.css">
-<!-- menubar -->
     <link rel="font" href="s">
     <script src="https://kit.fontawesome.com/b28244ea73.js" crossorigin="anonymous"></script>
     <script src="main.js" defer></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- menubar -->
     <title>UCL EVENTS</title>
   </head>
 
@@ -18,15 +16,14 @@
     <header>
         <div class="menu-container">
             <nav>
-                <a href="menu.html"><img src="menubar/ucl logo.png" alt="logo" class="logo"></a>
-                <a href="profil.html"><img src="menubar/profilbillede.png" alt="profil" class="profil"></a>
+                <a href="menu.html"><img src="img/ucl logo.png" alt="logo" class="logo"></a>
+                <a href="profil.html"><img src="img/profilbillede.png" alt="profil" class="profil"></a>
             </nav>
         </div>
 
         <div class="bar">
             <div class="bar-indhold">
                 <a href="opret.html"><i class="fa-solid fa-circle-plus fa-2x"></i></a>
-                 <!--Make sure the form has the autocomplete function switched off:-->
                  <form autocomplete="off" action="/action_page.php">
                     <div class="autocomplete" style="width:270px;">
                         <input id="eventsInput" type="text" name="myEvents" placeholder="Søg events her">
@@ -36,21 +33,20 @@
             </div>
         </div>
       </header>
-<!-- menubar -->
 
 <!-- slideshow -->
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <img src="slideshow/img/slide1.png" style="width:103%">
+  <img src="img/slide1.png" style="width:103%">
 </div>
 
 <div class="mySlides fade">
-  <img src="slideshow/img/slide2.png" style="width:103%">
+  <img src="img/slide2.png" style="width:103%">
 </div>
 
 <div class="mySlides fade">
-  <img src="slideshow/img/slide3.png" style="width:103%">
+  <img src="img/slide3.png" style="width:103%">
 </div>
 </div>
 
@@ -59,26 +55,26 @@
   <span class="dot"></span>
   <span class="dot"></span>
 </div>
-<!-- slideshow -->
 
 <!-- kategori buttons -->
-<div>
-<button class="button button1">Fest</button>
-<button class="button button2">Hygge</button>
-<button class="button button3">Sport</button>
-<button class="button button4">Læring</button>
-</div>
-<!-- kategori buttons -->
+
+<div class="kategorier-forside">
+  <button class="button">Fest</button>
+  <button class="button">Hygge</button>
+  <button class="button">Sport</button>
+  <button class="button">Læring</button>
+  </div>
+
 
 <!-- kommede events -->
 <section>
   <h2 class="kommende">Kommende begivenheder</h2>
 
-  <div class="lille-bogklub"><a href="eventside.html">
-    <img class="fredagsbar-lille-img" src="post/illustrationer/fredagsbar.png" alt="fredagbar">
-    <img class="hjerte2" src="post/hjerte.png" alt="hjerte">
+  <div class="lille-event"><a href="eventside.html">
+    <img class="lille-img" src="illustrationer/fredagsbar.png" alt="fredagbar">
+    <img class="hjerte2" src="img/hjerte.png" alt="hjerte">
 
-    <div class="content-lille-fredagbar">
+    <div class="content-lille">
     <h1 class="h2">MANDAG DEN 24.OKTOBER 2022</h1>
     <p class="p3">Fredagbar</p>
     <p2 class="p4">Seebladsgade 13, 5000 Odense</p2>
@@ -86,12 +82,12 @@
     </a>
   </div>
 
-  <div class="lille-bogklub">
-    <img class="bogklub-lille-img" src="post/illustrationer/bogklub.png" alt="bogklub">
-    <img class="hjerte2" src="post/hjerte.png" alt="hjerte">
+  <div class="lille-event">
+    <img class="lille-img" src="illustrationer/bogklub.png" alt="bogklub">
+    <img class="hjerte2" src="img/hjerte.png" alt="hjerte">
 
 
-    <div class="content-lille-bogklub">
+    <div class="cont-event">
     <h1 class="h2">FREDAG DEN 28.OKTOBER 2022</h1>
     <p class="p3">Skønlitteratarnes bogklub</p>
     <p2 class="p4">Niels Bohrs Allé 1, 5230 Odense M</p2>
@@ -99,31 +95,30 @@
 
   </div>
 
-  <div class="lille-braetspil">
-    <img class="braetspil-lille-img" src="post/illustrationer/braetspilscafe.png" alt="braetspil">
-    <img class="hjerte2" src="post/hjerte.png" alt="hjerte">
+  <div class="lille-event">
+    <img class="lille-img" src="illustrationer/braetspilscafe.png" alt="braetspil">
+    <img class="hjerte2" src="img/hjerte.png" alt="hjerte">
 
 
-    <div class="content-lille-braetspil">
+    <div class="content-lille">
     <h1 class="h2">TIRSDAG DEN 1.NOVEMBER 2022</h1>
     <p class="p3">Brætspilscafé</p>
     <p2 class="p4">Seebladsgade 13, 5000 Odense</p2>
     </div>
 
   </div>
-<!-- kommede events -->
 
 <!-- se mere knap -->
   <div>
-  <button class="button button5">Se alle</button>
+  <a href="begivenheder.html"><button class="button button5">Se alle</button></a>
   </div>
 <!-- se mere knap -->
 
 <!-- favoritter -->
   <h1 class="favoritter">Favoritter</h1>
-  <div class="lille-fredagsbar">
-    <img class="fredagsbar-lille-img" src="post/illustrationer/fredagsbar.png" alt="fredagsbar">
-    <img class="hjerte2" src="post/hjertefuld.png" alt="hjerte">
+  <div class="lille-event">
+    <img class="lille-img" src="illustrationer/fredagsbar.png" alt="fredagsbar">
+    <img class="hjerte2" src="img/hjertefuld.png" alt="hjerte">
 
 
     <div class="content-lille">
@@ -134,12 +129,12 @@
 
   </div>
 
-  <div class="lille-turnering">
-    <img class="turnering-lille-img" src="post/illustrationer/venner.png" alt="turnering">
-    <img class="hjerte2" src="post/hjertefuld.png" alt="hjerte">
+  <div class="lille-event">
+    <img class="lille-img" src="illustrationer/venner.png" alt="turnering">
+    <img class="hjerte2" src="img/hjertefuld.png" alt="hjerte">
 
 
-    <div class="content-lille-turnering">
+    <div class="content-lille">
     <h1 class="h2">ONSDAG DEN 9.NOVEMBER 2022</h1>
     <p class="p3">UCL ARAM turnering</p>
     <p2 class="p4">Online</p2>
@@ -147,12 +142,12 @@
 
   </div>
 
-  <div class="lille-bogklub">
-    <img class="bogklub-lille-img" src="post/illustrationer/bogklub.png" alt="bogklub">
-    <img class="hjerte2" src="post/hjertefuld.png" alt="hjerte">
+  <div class="lille-event">
+    <img class="lille-img" src="illustrationer/bogklub.png" alt="bogklub">
+    <img class="hjerte2" src="img/hjertefuld.png" alt="hjerte">
 
 
-    <div class="content-lille-bogklub">
+    <div class="content-lille">
     <h1 class="h2">MANDAG DEN 14.NOVEMBER 2022</h1>
     <p class="p3">Skønlitteraternes bogklub</p>
     <p2 class="p4">Niels Bohrs Allé 1, 5230 Odense M</p2>
@@ -162,13 +157,10 @@
 
   <!-- se mere knap -->
     <div>
-    <button class="button button5">Se alle</button>
+      <button class="button button5">Se alle</button>
     </div>
-  <!-- se mere knap -->
 
 </section>
-<!-- favoritter -->
-
 
   </body>
 </html>

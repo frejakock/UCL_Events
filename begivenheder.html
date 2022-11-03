@@ -1,151 +1,164 @@
 <!DOCTYPE html>
-<html lang="da" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="begivenheder.css">
-<!-- menubar -->
-    <link rel="font" href="s">
-    <script src="https://kit.fontawesome.com/b28244ea73.js" crossorigin="anonymous"></script>
-    <script src="main.js" defer></script>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- menubar -->
-    <title>UCL EVENTS</title>
-  </head>
+    <script src="https://kit.fontawesome.com/b28244ea73.js" crossorigin="anonymous"></script>
+    <script src="begivenheder.js" defer></script>
+    <link rel="stylesheet" href="main.css">
+    <title>UCL Events</title>
+</head>
+<body>
+  <header>
+    <!-- Menulinje med logo og profil -->
+    <div class="menu-container">
+        <nav>
+            <a href="main.html"><img src="img/ucl logo.png" alt="logo" class="logo"></a>
+            <a href="profil.html"><img src="img/profilbillede.png" alt="profil" class="profil"></a>
+        </nav>
+    </div>
 
-  <body>
-<!-- menubar -->
-    <header>
-        <div class="menu-container">
-            <nav>
-                <a href="menu.html"><img src="menubar/ucl logo.png" alt="logo" class="logo"></a>
-                <a href="profil.html"><img src="menubar/profilbillede.png" alt="profil" class="profil"></a>
-            </nav>
+    <!-- Menulinje med searchbar, opret event og favoritter -->
+    <div class="bar">
+        <div class="bar-indhold">
+            <a href="opret.html"><i class="fa-solid fa-circle-plus fa-2x"></i></a>
+             <form autocomplete="off" action="/action_page.php">
+                <div class="autocomplete" style="width:270px;">
+                    <input id="eventsInput" type="text" name="myEvents" placeholder="Søg events her">
+                </div>
+            </form>
+            <a href="favoritter.html"><i class="fa-solid fa-heart fa-2x"></i></a>
         </div>
+    </div>
+  </header>
 
-        <div class="bar">
-            <div class="bar-indhold">
-                <a href="opret.html"><i class="fa-solid fa-circle-plus fa-2x"></i></a>
-                 <!--Make sure the form has the autocomplete function switched off:-->
-                 <form autocomplete="off" action="/action_page.php">
-                    <div class="autocomplete" style="width:270px;">
-                        <input id="eventsInput" type="text" name="myEvents" placeholder="Søg events her">
-                    </div>
-                </form>
-                <a href="favoritter.html"><i class="fa-solid fa-heart fa-2x"></i></a>
-            </div>
+    <!-- Scroll menu filtrering buttons -->
+<div class="scrollmenu" id="scrollmenu">
+    <div class="btn active" onclick="filterSelection('all')"> Alle</div>
+    <div class="btn" onclick="filterSelection('fest')"> Fest</div>
+    <div class="btn" onclick="filterSelection('hygge')"> Hygge</div>
+    <div class="btn" onclick="filterSelection('sport')"> Sport</div>
+    <div class="btn" onclick="filterSelection('laring')"> Læring</div>
+  </div>
+  
+  <!-- Events -->
+  <div class="events">
+
+    <div class="filterDiv hygge">
+      <div class="braetspil">
+        <img class="events-img" src="illustrationer/braetspilscafe.png" alt="braetspilscafe">
+        <img class="hjerte" src="img/hjerte.png" alt="hjerte">
+
+        <div class="content">
+          <h1>TIRSDAG DEN 1.NOVEMBER 2022</h1>
+          <p>Brætspilscafé</p>
+          <p class="adr">Seebladsgade 13, 5000 Odense</p>
         </div>
-      </header>
-<!-- menubar -->
+      </div>
+    </div>
+    
+    
+    <div class="filterDiv fest hygge">
+      <div class="fredagsbar">
+        <img class="events-img" src="illustrationer/fredagsbar.png" alt="fredagsbar">
+        <img class="hjerte-fuld" src="img/hjertefuld.png" alt="hjerte">
+    
+    
+        <div class="content">
+        <h1>ONSDAG DEN 9.NOVEMBER 2022</h1>
+        <p>Fredagsbar</p>
+        <p class="adr">Seebladsgade 13, 5000 Odense </p>
+        </div>
+      </div>
+    </div>
 
-<!-- events -->
-<section>
-  <div class="braetspil">
-    <img class="braetspil-img" src="post/illustrationer/braetspilscafe.png" alt="braetspilscafe">
-    <img class="hjerte" src="post/hjerte.png" alt="hjerte">
+    <div class="filterDiv hygge">
+      <div class="bogklub">
+        <img class="events-img" src="illustrationer/bogklub.png" alt="bogklub">
+        <img class="hjerte" src="img/hjerte.png" alt="hjerte">
+    
+    
+        <div class="content">
+        <h1>MANDAG DEN 24.OKTOBER 2022</h1>
+        <p>Skønlitteraternes bogklub</p>
+        <p class="adr">Niels Bohrs Allé 1, 5230 Odense M</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="filterDiv fest">
+      <div class="campusfest">
+        <img class="events-img" src="illustrationer/fest.png" alt="campusfest">
+        <img class="hjerte" src="img/hjerte.png" alt="hjerte">
+    
+    
+        <div class="content">
+        <h1>FREDAG DEN 4.NOVEMBER 2022</h1>
+        <p>Campus Fest</p>
+        <p class="adr">Seebladsgade 13, 5000 Odense</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="filterDiv sport">
+      <div class="campusfest">
+        <img class="events-img" src="illustrationer/computer.png" alt="turnering">
+        <img class="hjerte" src="img/hjerte.png" alt="hjerte">
+    
+    
+        <div class="content">
+        <h1>ONSDAG DEN 9.NOVEMBER 2022</h1>
+        <p>UCL ARAM turnering</p>
+        <p class="adr">Online</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="filterDiv hygge">
+      <div class="filmaften">
+        <img class="events-img" src="illustrationer/venner.png" alt="filmaften">
+        <img class="hjerte" src="img/hjerte.png" alt="hjerte">
+    
+    
+        <div class="content">
+        <h1>FREDAG DEN 11.NOVEMBER 2022</h1>
+        <p>Filmaften</p>
+        <p class="adr">Seebladsgade 13, 5000 Odense</p>
+        </div>
+      </div>
+    </div>
 
 
-    <div class="content-box1">
-    <h1 class="h1">TIRSDAG DEN 1.NOVEMBER 2022</h1>
-    <p class="p">Brætspilscafé</p>
-    <p2 class="p2">Seebladsgade 13, 5000 Odense </p2>
+    <div class="filterDiv sport">
+      <div class="sport">
+        <img class="events-img" src="illustrationer/sport.png" alt="sport">
+        <img class="hjerte" src="img/hjerte.png" alt="hjerte">
+    
+    
+        <div class="content">
+        <h1>TORSDAG DEN 17.NOVEMBER 2022</h1>
+        <p>UCL FC træning</p>
+        <p class="adr">Solbærvej 5, 5260 Odense S</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="filterDiv laring">
+      <div class="workshop">
+        <img class="events-img" src="illustrationer/laering.png" alt="Læring">
+        <img class="hjerte" src="img/hjerte.png" alt="hjerte">
+    
+    
+        <div class="content">
+        <h1>TIRSDAG DEN 15.NOVEMBER 2022</h1>
+        <p>Blender 3D workshop</p>
+        <p class="adr">Seebladsgade 13, 5000 Odense</p>
+        </div>
+      </div>
     </div>
 
   </div>
-
-  <div class="fredagsbar">
-    <img class="fredagsbar-img" src="post/illustrationer/fredagsbar.png" alt="fredagsbar">
-    <img class="hjerte" src="post/hjerte.png" alt="hjerte">
-
-
-    <div class="content-box1">
-    <h1 class="h1">ONSDAG DEN 9.NOVEMBER 2022</h1>
-    <p class="p">Fredagsbar</p>
-    <p2 class="p2">Seebladsgade 13, 5000 Odense </p2>
-    </div>
-
-  </div>
-
-  <div class="bogklub">
-    <img class="bogklub-img" src="post/illustrationer/bogklub.png" alt="bogklub">
-    <img class="hjerte" src="post/hjerte.png" alt="hjerte">
-
-
-    <div class="content-box1">
-    <h1 class="h1">MANDAG DEN 24.OKTOBER 2022</h1>
-    <p class="p">Skønlitteraternes bogklub</p>
-    <p2 class="p2">Niels Bohrs Allé 1, 5230 Odense M</p2>
-    </div>
-
-  </div>
-
-  <div class="campus-fest">
-    <img class="campusfest-img" src="post/illustrationer/fest.png" alt="campus-fest">
-    <img class="hjerte" src="post/hjerte.png" alt="hjerte">
-
-
-    <div class="content-box1">
-    <h1 class="h1">FREDAG DEN 4.NOVEMBER 2022</h1>
-    <p class="p">Campus Fest</p>
-    <p2 class="p2">Seebladsgade 13, 5000 Odense</p2>
-    </div>
-
-  </div>
-
-  <div class="turnering">
-    <img class="turnering-img" src="post/illustrationer/computer.png" alt="turnering">
-    <img class="hjerte-fuld" src="post/hjertefuld.png" alt="hjerte">
-
-
-    <div class="content-box1">
-    <h1 class="h1">ONSDAG DEN 9.NOVEMBER 2022</h1>
-    <p class="p">UCL ARAM tunering</p>
-    <p2 class="p2">Online</p2>
-    </div>
-
-  </div>
-
-  <div class="filmaften">
-    <img class="filmaften-img" src="post/illustrationer/venner.png" alt="filmaften">
-    <img class="hjerte" src="post/hjerte.png" alt="hjerte">
-
-
-    <div class="content-box1">
-    <h1 class="h1">FREDAG DEN 11.NOVEMBER 2022</h1>
-    <p class="p">Filmaften</p>
-    <p2 class="p2">Seebladsgade 13, 5000 Odense</p2>
-    </div>
-
-  </div>
-
-  <div class="sport">
-    <img class="sport-img" src="post/illustrationer/sport.png" alt="sport">
-    <img class="hjerte-fuld" src="post/hjertefuld.png" alt="hjerte">
-
-
-    <div class="content-box1">
-    <h1 class="h1">TORSDAG DEN 17.NOVEMBER 2022</h1>
-    <p class="p">UCL FC træning</p>
-    <p2 class="p2">Solbærvej 5, 5260 Odense S</p2>
-    </div>
-
-  </div>
-
-  <div class="workshop">
-    <img class="workshop-img" src="post/illustrationer/laering.png" alt="workshop">
-    <img class="hjerte" src="post/hjerte.png" alt="hjerte">
-
-
-    <div class="content-box1">
-    <h1 class="h1">TIRSDAG DEN 15.NOVEMBER 2022</h1>
-    <p class="p">Blender 3D workshop</p>
-    <p2 class="p2">Seebladsgade 13, 5000 Odense</p2>
-    </div>
-
-  </div>
-
-</section>
-  <!-- events -->
-
-  </body>
+    
+</body>
 </html>
