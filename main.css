@@ -579,7 +579,6 @@ font-style: italic;
   font-size: 20px;
   margin-bottom: 5px;
   margin-top: 0px;
-
 }
 
 .info {
@@ -608,19 +607,216 @@ font-size: 16px;
 }
 
 @media only screen and (min-width: 768px){
-  input[type=text] {
-    width: 300%;
-    justify-content: center;
-    align-items: center;
-  }
+
+/* mellem skærm til forside */
+.h2{
+  font-size: 24px;
+}
+
+.p3{
+  font-size: 28px;
+}
+
+.p4{
+  font-size: 24px;
 }
   .kategorier-forside {
     display: flex;
     justify-content: center;
     align-items: center;
+    grid-gap: 40px;
   }
 
   .lille-event {
+    width: 711px;
+    height: 175px;
+    margin: 20px;
+  }
+
+  .lille-img {
+    width: 239px;
+    height: 175px;
+    padding: 0px;
+  }
+
+  .content-lille {
+    box-sizing: content-box;
+    margin-top: -150px;
+    margin-left: 150px;
 
   }
+
+  .hjerte2 {
+    height: 28px;
+    width: 28px;
+}
+
+.kategorier-forside {
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.button {
+  font-size: 27px;
+  cursor: pointer;
+  padding: 15px 35px;
+}
+
+.button5 {
+  margin-top: -10px;
+  max-width: 200px;
+  height: 50px;
+}
+
+/* mellem skærm til eventside */
+
+h1{
+  font-size: 24px;
+}
+
+h4{
+  font-size: 24px;
+  font-weight: normal;
+}
+
+p.info{
+  font-size: 24px;
+  margin: 20px;
+}
+
+.event-titel{
+  font-size: 28px;
+}
+
+.adr{
+  font-size: 24px;
+}
+
+.btn-deltag {
+  padding: 9px 45px;
+  font-size: 28px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.btn-deltagere {
+  padding: 9px 45px;
+  font-size: 28px;
+}
+
+.btn-del{
+  padding: 13px 20px;
+  padding-bottom: 12px;
+  font-size: 28px;
+}
+.lokation{
+  margin-top: -10px;
+}
+
+.info-tekst{
+  margin-left: 14px;
+  font-size: 28px;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+button.mybtn{
+  font-size: 24px;
+  padding: 4px 15px;
+  margin-left: 30px;
+}
+}
+
+@media only screen and (min-width: 1024px){
+
+  /* stor skærm til forside */
+  .h2{
+    font-size: 24px;
+  }
+
+  .p3{
+    font-size: 32px;
+  }
+
+  .p4{
+    font-size: 24px;
+  }
+
+    .kategorier-forside {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      grid-gap: 40px;
+    }
+
+  .kategorier-forside {
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  .button {
+    font-size: 27px;
+    cursor: pointer;
+    padding: 15px 35px;
+  }
+
+  .button5 {
+    margin-top: -10px;
+    max-width: 200px;
+    height: 50px;
+  }
+
+  /* stor skærm til eventside */
+  h1{
+    font-size: 30px;
+  }
+
+  h4{
+    font-size: 30px;
+    font-weight: normal;
+  }
+
+  p.info{
+    font-size: 30px;
+    margin: 20px;
+  }
+
+  .event-titel{
+    font-size: 32px;
+  }
+
+  .adr{
+    font-size: 30px;
+  }
+
+  .btn-deltag {
+    padding: 9px 45px;
+    font-size: 32px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+
+  .btn-deltagere {
+    font-size: 32px;
+  }
+
+  .btn-del{
+    font-size: 32px;
+  }
+  .lokation{
+    margin-top: -10px;
+  }
+
+  .info-tekst{
+    font-size: 32px;
+  }
+
+  button.mybtn{
+    font-size: 32px;
+  }
+
 }
