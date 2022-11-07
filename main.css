@@ -272,8 +272,8 @@ img {vertical-align: middle;} */
 
 .button {
   font-family: proxima-nova, sans-serif;
-font-weight: 600;
-font-style: italic;
+  font-weight: 600;
+  font-style: italic;
   border: none;
   border-radius: 8px;
   color: #E4F1F1;
@@ -627,10 +627,27 @@ font-size: 16px;
     grid-gap: 40px;
   }
 
+.kommende {
+  font-size: 32px;
+  margin-left: 200px;
+}
+
+.favoritter {
+  font-size: 32px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.button5 {
+  margin-left: 220px;
+}
+
   .lille-event {
     width: 711px;
     height: 175px;
-    margin: 20px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 
   .lille-img {
@@ -819,4 +836,60 @@ button.mybtn{
     font-size: 32px;
   }
 
+/* stor skærm til events side */
+.filterDiv {
+  width: 716px;
+  height: 536px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.events-img {
+  width: 716px;
+  height: auto;
+}
+
+.content {
+  margin-top: -18px;
+}
+
+.event-titel {
+  margin-top: -25px;
+}
+
+.adr {
+  margin-top: -34px;
+}
+
+.hjerte {
+  width: 35px;
+  height: auto;
+  margin-top:10px;
+}
+
+.hjerte-fuld {
+  width: 35px;
+  height: auto;
+  margin-top:10px;
+}
+
+.scrollmenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 30px;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.btn {
+  font-size: 27px;
+  cursor: pointer;
+  padding: 15px 35px;
+  padding-top: 7px;
+  max-width: 200px;
+  height: 50px;
+  border-radius: 8px;
+}
 }
