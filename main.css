@@ -628,6 +628,7 @@ font-size: 16px;
     padding: 9px 40px;
     font-size: 16px;
     cursor: pointer;
+    margin-left: 14px;
   }
 
 .modal-content {
@@ -675,6 +676,7 @@ font-size: 16px;
     padding: 9px 40px;
     font-size: 16px;
     cursor: pointer;
+    margin-left: 14px;
   }
 
 .modal-content {
@@ -1010,6 +1012,7 @@ button.mybtn{
     padding: 9px 40px;
     font-size: 16px;
     cursor: pointer;
+    margin-left: 14px;
   }
 
 .modal-content {
