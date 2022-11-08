@@ -16,7 +16,7 @@ function myFunction() {
 
 }
 
-var modal = document.getElementById("Modal");
+var modal = document.getElementById("myModal");
 
 var btn = document.getElementById("modalBtn");
 
