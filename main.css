@@ -893,3 +893,49 @@ button.mybtn{
   border-radius: 8px;
 }
 }
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  color: #E4F1F1;
+}
+
+.modalBtn {
+    border: none;
+    border-radius: 8px;
+    color: #E4F1F1;
+    background-color: #00454E;
+    padding: 9px 40px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+.modal-content {
+  background-color: #00454E;
+  margin: auto;
+  padding: 25px;
+  border: 1px solid #00454E;
+  width: 80%;
+
+}
+
+.close {
+  color: #E4F1F1;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #E4F1F1;
+  text-decoration: none;
+  cursor: pointer;
+}
